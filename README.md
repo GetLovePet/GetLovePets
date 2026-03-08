@@ -38,6 +38,36 @@ To build a scalable, technology-driven ecosystem that supports animal rescue ope
 
 ---
 
+## ▶️ Running the Backend
+
+Clone the repository:
+
+git clone https://github.com/GetLovePet/GetLovePets.git
+
+Navigate to the project:
+
+cd GetLovePets
+
+Run the Spring Boot application:
+
+./mvnw spring-boot:run
+
+The API will start at:
+
+http://localhost:8080
+
+---
+
+## 🔗 API Endpoints
+
+| Endpoint | Method | Description |
+|--------|--------|-------------|
+| /api/health | GET | Health check endpoint |
+
+---
+
+
+
 ## 🤝 Contributing
 
 We welcome contributions from developers, designers, and animal welfare supporters.
